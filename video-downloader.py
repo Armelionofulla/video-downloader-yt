@@ -11,7 +11,7 @@ print("Duration:", yt.length)
 
 yd = yt.streams.get_highest_resolution()
 
-yd.download('./downloads')
+yd.download('./video-downloads')
 
 
 
