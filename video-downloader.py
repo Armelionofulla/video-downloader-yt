@@ -1,8 +1,8 @@
-from sys import argv
+
 
 from pytube import YouTube
 
-link = argv[1]
+link = input('Enter link: ')
 yt = YouTube(link)
 
 print("Title:", yt.title)
